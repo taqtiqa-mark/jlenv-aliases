@@ -1,0 +1,44 @@
+repo_name: taqtiqa-mark/jlenv-aliases
+report_id: 5ea73fcffe1424d3e0b6592d190b2ccc
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:22:29+00:00'
+requested_by: jasonkarns
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/taqtiqa-mark/jlenv-aliases
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/taqtiqa-mark/jlenv-aliases/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Ian Heggie
+  last_updated_on: 2014-03-01 14:06:57.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/taqtiqa-mark/jlenv-aliases
+  detection_source: Repo Metadata
